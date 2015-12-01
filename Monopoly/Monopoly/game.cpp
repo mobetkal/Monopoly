@@ -20,7 +20,7 @@ Game::Game(void)
 
 	if ((!font.loadFromFile("font/font.ttf")) || (!font_menus.loadFromFile("font/kawoszeh.ttf")))
 		return;
-
+	//test
 	state = MODE_MENU;
 }
 
